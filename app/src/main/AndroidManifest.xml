@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ttqrpos.com.ttposmobile">
+
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".PrefsApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity android:name=".PosActList"></activity>
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="ttqrpos" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="ttqrpos.com.ttposmobile.Models.QrContent" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

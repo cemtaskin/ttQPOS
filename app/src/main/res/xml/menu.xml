@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_name"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="always"
+        android:orderInCategory="0">
+
+        <menu>
+            <item
+                android:id="@+id/posActs"
+                android:title="Tahsilat Hareketleri"
+                app:showAsAction="always"
+                android:orderInCategory="1"/>
+        </menu>
+
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,4 @@
+include ':nlCommonObjects'
+include ':hgnprinter'
+include ':app'
+rootProject.name = "T&T QR POS"

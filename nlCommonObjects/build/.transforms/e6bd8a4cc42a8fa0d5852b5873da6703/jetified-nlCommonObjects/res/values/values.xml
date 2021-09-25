@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ENTER_PIN">Pin Giriniz</string>
+    <string name="app_name">Hugin SDK</string>
+</resources>
